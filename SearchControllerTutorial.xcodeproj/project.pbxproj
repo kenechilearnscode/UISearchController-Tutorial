@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		90BAF9CB1C7250C1003EF666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAF9CA1C7250C1003EF666 /* AppDelegate.swift */; };
-		90BAF9CD1C7250C1003EF666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAF9CC1C7250C1003EF666 /* ViewController.swift */; };
 		90BAF9D01C7250C1003EF666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BAF9CE1C7250C1003EF666 /* Main.storyboard */; };
 		90BAF9D21C7250C1003EF666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BAF9D11C7250C1003EF666 /* Assets.xcassets */; };
 		90BAF9D51C7250C1003EF666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BAF9D31C7250C1003EF666 /* LaunchScreen.storyboard */; };
+		90BAF9DD1C7250F7003EF666 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 90BAF9DC1C7250F7003EF666 /* countries.json */; };
+		90BAF9DF1C72510A003EF666 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAF9DE1C72510A003EF666 /* SwiftyJSON.swift */; };
+		90BAF9E11C72512E003EF666 /* CountryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BAF9E01C72512E003EF666 /* CountryListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90BAF9C71C7250C1003EF666 /* SearchControllerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchControllerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BAF9CA1C7250C1003EF666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90BAF9CC1C7250C1003EF666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90BAF9CF1C7250C1003EF666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90BAF9D11C7250C1003EF666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BAF9D41C7250C1003EF666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BAF9D61C7250C1003EF666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BAF9DC1C7250F7003EF666 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		90BAF9DE1C72510A003EF666 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		90BAF9E01C72512E003EF666 /* CountryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		90BAF9C91C7250C1003EF666 /* SearchControllerTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				90BAF9DE1C72510A003EF666 /* SwiftyJSON.swift */,
+				90BAF9DC1C7250F7003EF666 /* countries.json */,
 				90BAF9CA1C7250C1003EF666 /* AppDelegate.swift */,
-				90BAF9CC1C7250C1003EF666 /* ViewController.swift */,
 				90BAF9CE1C7250C1003EF666 /* Main.storyboard */,
+				90BAF9E01C72512E003EF666 /* CountryListTableViewController.swift */,
 				90BAF9D11C7250C1003EF666 /* Assets.xcassets */,
 				90BAF9D31C7250C1003EF666 /* LaunchScreen.storyboard */,
 				90BAF9D61C7250C1003EF666 /* Info.plist */,
@@ -124,6 +130,7 @@
 			files = (
 				90BAF9D51C7250C1003EF666 /* LaunchScreen.storyboard in Resources */,
 				90BAF9D21C7250C1003EF666 /* Assets.xcassets in Resources */,
+				90BAF9DD1C7250F7003EF666 /* countries.json in Resources */,
 				90BAF9D01C7250C1003EF666 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BAF9CD1C7250C1003EF666 /* ViewController.swift in Sources */,
+				90BAF9E11C72512E003EF666 /* CountryListTableViewController.swift in Sources */,
 				90BAF9CB1C7250C1003EF666 /* AppDelegate.swift in Sources */,
+				90BAF9DF1C72510A003EF666 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
